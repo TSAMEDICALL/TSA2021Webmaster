@@ -1,0 +1,187 @@
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+    color: black;
+}
+
+.vertical {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.horizontal {
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.parallax{ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    display: inline-block;
+    margin-left: 10px;
+    z-index: 1000;
+    position: fixed;
+}
+
+#menu:hover {
+    cursor: pointer;
+}
+
+.start{
+    color: black;
+    text-align: center;
+}
+
+.start:hover{
+    cursor: pointer;
+}
+
+.top-page {
+    background-image: url("004yellow.png");
+    height: 100%;
+}
+
+.middle-page {
+    background-image: url("005.jpg");
+    height: 100%;
+}
+
+.top-page_getStarted {
+    background-image: url("008yellow.png");
+    height: 100%;
+}
+
+.last-page {
+    background-image: url("006.jpeg");
+    height: 100%;
+}
+
+.side-bar{
+    width: 0px;
+    height: 100%;
+    background: rgba(0,0,0, 0.7);
+    transition: 0.5s;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+    z-index: 999;
+}
+
+.home {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+#doctor:hover {
+    cursor: pointer;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.change .bar2{
+    display: none;
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(0px, -1px);
+}
+
+.bar1, .bar2, .bar3{
+    margin-top: 50px;
+    width: 50px;
+    height: 7px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+.getStarted {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.getStarted:hover {
+    cursor: pointer;
+}
+
+.doctors:hover {
+    cursor: pointer;
+}
+
+.sources {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.sources:hover {
+    cursor: pointer;
+}
+
+.worklog {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.worklog:hover {
+    cursor: pointer;
+}
+ 
+@media only screen and (max-width: 1200px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.doctorSize {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.submitButton {
+    background-color: white;
+    margin: 20px;
+}
+
+.copyright {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.copyright:hover {
+    cursor: pointer;
+}
