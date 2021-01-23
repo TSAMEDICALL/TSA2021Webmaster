@@ -157,12 +157,25 @@ html, body {
 .worklog:hover {
     cursor: pointer;
 }
- 
+
+.linkPdf{
+    display: none;
+}
+
 @media only screen and (max-width: 1200px) {
     .parallax {
         background-attachment: scroll;
     }
+
+    .pdfMobile{
+        display: none;
+    }
+
+    .linkPdf{
+        display: block;
+    }
 }
+
 
 .doctorSize {
     font-size: x-large;

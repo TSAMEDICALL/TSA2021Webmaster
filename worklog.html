@@ -12,7 +12,7 @@
     <body>
         <div class="parallax top-page">
             <div class="row" style="width: 100%;">
-                <div id="menu"> 
+                <div id="menu" class="col-sm-1"> 
                     <div class="bar1" style="background-color: black;"></div>
                     <div class="bar2" style="background-color: black;"></div>
                     <div class="bar3" style="background-color: black;"></div>
@@ -31,7 +31,10 @@
                     <h5 id="worklog" class="worklog">Work Log</h5>
                 </div>
             </div>
-            <iframe src="workLog.pdf" frameborder="0" height="90%" width="100%"></iframe>
+            <iframe class="vertical pdfMobile" src="workLog.pdf" frameborder="0" height="100%" width="100%"></iframe> 
+            <div class="row">
+                <a href="workLog.pdf" class="linkPdf center">Work Log PDF</a>
+            </div>
         </div>
     </body>
 
