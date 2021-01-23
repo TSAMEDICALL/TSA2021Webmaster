@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    border:0;
     height: 100%;
 }
 
@@ -202,3 +203,7 @@ html, body {
 .font {
     font-family: 'Fraunces', serif;
 } 
+
+.source-middle {
+    background-image: URL("009.jpg");
+}
