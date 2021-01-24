@@ -56,6 +56,14 @@ function ready(){
         }
     }
 
+    let quickStart = document.getElementById('quickStart');
+    if(quickStart){
+        quickStart.onclick = function(){
+            console.log("Reference clicked");
+            window.location.href = "optiondoctor.html";
+        }
+    }
+
     let meeting = document.getElementById('meeting');
     if(meeting){
         meeting.onclick = function(){
