@@ -206,4 +206,5 @@ html, body {
 
 .source-middle {
     background-image: URL("009.jpg");
+    height: 100%;
 }
