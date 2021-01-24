@@ -209,3 +209,8 @@ html, body {
     background-image: URL("009.jpg");
     height: 100%;
 }
+
+.doctor-top {
+    background-image: URL("007.jpg");
+    height: 100%;
+}
