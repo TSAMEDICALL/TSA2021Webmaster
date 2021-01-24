@@ -34,6 +34,9 @@ html, body {
     margin-left: 10px;
     z-index: 1000;
     position: fixed;
+    background: rgba(0,0,0,0.5);
+    width: 73px;
+    height: 48px;
 }
 
 #menu:hover {
@@ -161,21 +164,15 @@ html, body {
 
 .linkPdf{
     display: none;
+    color: white;
 }
 
-@media only screen and (max-width: 1200px) {
-    .parallax {
-        background-attachment: scroll;
-    }
 
-    .pdfMobile{
-        display: none;
-    }
-
-    .linkPdf{
-        display: block;
-    }
+.source-middle {
+    background-image: URL("009.jpg");
+    height: 100%;
 }
+
 
 
 .doctorSize {
@@ -205,12 +202,31 @@ html, body {
     font-family: 'Fraunces', serif;
 } 
 
-.source-middle {
+.doctor-top {
+    background-image: URL("007.jpg");
+    height: 100%;
+}
+
+.source-end {
     background-image: URL("009.jpg");
     height: 100%;
 }
 
-.doctor-top {
-    background-image: URL("007.jpg");
-    height: 100%;
+@media only screen and (max-width: 1200px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+    
+    .pdfMobile{
+        display: none;
+    }
+
+    .linkPdf{
+        display: block;
+    }
+
+    .source-end {
+        background-image: URL("007.jpg");
+    }
+    
 }
