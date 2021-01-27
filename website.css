@@ -226,10 +226,12 @@ html{
 
 .darken:hover {
     background-color: rgba(0,0,0,0.25);
+    transition: 0.25s;
 }
 
 h5:hover {
     color: gray;
+    transition: 0.25s;
 }
 
 .quickButton:hover {
