@@ -45,6 +45,7 @@ html{
 
 #menu:hover {
     cursor: pointer;
+    background: rgba(255,255,255, 0.5);
 }
 
 .start{
