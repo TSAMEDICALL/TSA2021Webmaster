@@ -230,5 +230,9 @@ html, body {
     .source-end {
         background-image: URL("007.jpg");
     }
+
+    .logoHome{
+        width: 50%;  
+    }
     
 }
