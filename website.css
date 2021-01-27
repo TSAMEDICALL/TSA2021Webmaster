@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     border:0;
     height: 100%;
+    overflow: auto;
 }
 
 .center {
@@ -220,6 +221,10 @@ html, body {
 
 .darken:hover {
     background-color: rgba(0,0,0,0.25);
+}
+
+h5:hover {
+    color: gray;
 }
 
 @media only screen and (max-width: 800px) {
