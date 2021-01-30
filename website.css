@@ -249,6 +249,10 @@ h5:hover {
     font-size: x-large;
 }
 
+.text {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -277,6 +281,14 @@ h5:hover {
 
     .subtitle {
         font-size: medium;
+    }
+
+    .text {
+        display: block;
+    }
+
+    .textMain {
+        display: none;
     }
 
 }
