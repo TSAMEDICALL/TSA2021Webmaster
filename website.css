@@ -245,6 +245,10 @@ h5:hover {
     margin-right: auto;
 }
 
+.subtitle {
+    font-size: x-large;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -269,6 +273,10 @@ h5:hover {
     
     .homeLogoMedium{
         display: block;
+    }
+
+    .subtitle {
+        font-size: medium;
     }
 
 }
