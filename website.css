@@ -238,6 +238,10 @@ h5:hover {
     cursor: pointer;
 }
 
+.homeLogoMedium{
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -257,6 +261,11 @@ h5:hover {
 
     .homeLogo{
         width: 60%;
+        display: none;
     }
     
+    .homeLogoMedium{
+        display: block;
+    }
+
 }
