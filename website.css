@@ -190,8 +190,15 @@ html{
 }
 
 .submitButton {
-    background-color: white;
-    margin: 20px;
+    height:auto; 
+    background-color: #0061B5; 
+    color: white; 
+    font-size: 150%;
+}
+
+.submitButton:hover {
+    background-color: #0078E0; 
+    transition: 1s;
 }
 
 .copyright {
@@ -258,6 +265,30 @@ h5:hover {
     display: none;
 }
 
+.buttonHover {
+    height:50px;
+    background-color: #E0C600;
+    color: white; 
+    font-size: 150%;
+}
+
+.buttonHover:hover{
+    background-color: #F7D839; 
+    transition: 1s;
+}
+
+.buttonHoverBlue {
+    height:50px;
+    background-color: #0061B5;
+    color: white; 
+    font-size: 150%;
+}
+
+.buttonHoverBlue:hover{
+    background-color: #0078E0; 
+    transition: 1s;
+}
+
 .phoneButton {
     width: 50%;
     height: 50%;
@@ -275,11 +306,16 @@ h5:hover {
     width: 40%;
 }
 
+.arrow {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
     }
-    
+
     .pdfMobile{
         display: none;
     }
