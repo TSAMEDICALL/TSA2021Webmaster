@@ -290,7 +290,7 @@ h5:hover {
     
     .homeLogoMedium{
         display: block;
-        width: 40;
+        width: 40%;
     }
 
     .subtitle {
@@ -315,6 +315,10 @@ h5:hover {
 
     #menu{
         background: rgba(0,0,0,0.5);
+    }
+
+    #menu:hover {
+        cursor: pointer;
     }
 
 }
