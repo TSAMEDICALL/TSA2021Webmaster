@@ -317,6 +317,10 @@ h5:hover {
     font-size: 120%;
 }
 
+.mobileDoctor {
+    width: 35%;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -373,4 +377,9 @@ h5:hover {
         background: rgba(0,0,0, 0.5);
         transition: 1s;
     }
+
+    .mobileDoctor {
+        width: 100%;
+    }
+
 }
