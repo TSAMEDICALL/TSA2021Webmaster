@@ -296,4 +296,8 @@ h5:hover {
         display: none;
     }
 
+    #menu{
+        background: rgba(0,0,0,0.5);
+    }
+
 }
