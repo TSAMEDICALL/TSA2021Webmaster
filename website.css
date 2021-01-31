@@ -278,7 +278,7 @@ h5:hover {
 }
 
 .buttonHoverBlue {
-    height:50px;
+    height:35%;
     background-color: #0061B5;
     color: white; 
     font-size: 150%;
@@ -403,6 +403,6 @@ h5:hover {
     }
 
     .startButtonWeb {
-        display: none;
+        display: block;
     }
 }
