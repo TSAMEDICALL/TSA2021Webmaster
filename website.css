@@ -321,6 +321,18 @@ h5:hover {
     width: 35%;
 }
 
+.mobileStart {
+    width: 60%;
+}
+
+.mobileStartButton {
+    display: none;
+}
+
+.startButtonWeb {
+    display: block;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -382,4 +394,15 @@ h5:hover {
         width: 100%;
     }
 
+    .mobileStart {
+        width: 100%;
+    }
+
+    .mobileStartButton {
+        display: block;
+    }
+
+    .startButtonWeb {
+        display: none;
+    }
 }
