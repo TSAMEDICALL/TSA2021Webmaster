@@ -311,6 +311,12 @@ h5:hover {
     margin-right: auto;
 }
 
+.yellow {
+    color: #FDD800;
+    font-weight: bold;
+    font-size: 120%;
+}
+
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
