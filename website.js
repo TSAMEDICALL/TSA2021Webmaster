@@ -60,7 +60,7 @@ function ready(){
     if(quickStart){
         quickStart.onclick = function(){
             console.log("Reference clicked");
-            window.location.href = "optiondoctor.html";
+            window.location.href = "getStarted.html";
         }
     }
 
