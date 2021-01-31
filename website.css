@@ -275,16 +275,6 @@ h5:hover {
     width: 40%;
 }
 
-.email {
-    height: 100%;
-    width: 60%;
-}
-
-.number {
-    height: 100%;
-    width: 30%;
-}
-
 @media only screen and (max-width: 800px) {
     .parallax {
         background-attachment: scroll;
@@ -341,15 +331,4 @@ h5:hover {
         background: rgba(0,0,0, 0.5);
         transition: 1s;
     }
-
-    .name {
-        height: 100%;
-        width: 100%;
-    }
-    
-    .email {
-        height: 100%;
-        width: 100%;
-    }
-
 }
