@@ -290,7 +290,7 @@ h5:hover {
     
     .homeLogoMedium{
         display: block;
-        width: 150%;
+        width: 100%;
     }
 
     .subtitle {
@@ -299,10 +299,10 @@ h5:hover {
 
     .phoneButton {
         width: 70%;
-        height: 40%;
+        height: 70%;
         background-color: rgba(224, 198, 0, 1);
         color: white;
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .text {
@@ -319,6 +319,8 @@ h5:hover {
 
     #menu:hover {
         cursor: pointer;
+        background: rgba(0,0,0, 0.5);
+        transition: 1s;
     }
 
 }
