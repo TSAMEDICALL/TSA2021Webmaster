@@ -403,6 +403,6 @@ h5:hover {
     }
 
     .startButtonWeb {
-        display: block;
+        display: none;
     }
 }
