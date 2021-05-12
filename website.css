@@ -103,12 +103,24 @@ html{
     cursor: pointer;
 }
 
+.about {
+    display: none;
+    color: white;
+    animation: slide 5s linear infinite;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about:hover {
+    cursor: pointer;
+}
+
 #doctor:hover {
     cursor: pointer;
 }
 
 .change .bar1{
-    transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-10px, 6px);
 }
 
 .change .bar2{
