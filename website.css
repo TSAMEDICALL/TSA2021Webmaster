@@ -357,9 +357,25 @@ h5:hover {
 	cursor: pointer;
 }
 
+.smartClass {
+    display: block;
+}
+
+.smartClass2 {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .parallax {
         background-attachment: scroll;
+    }
+
+    .smartClass {
+        display: none;
+    }
+
+    .smartClass2 {
+        display: block;
     }
 
     .pdfMobile{
@@ -371,7 +387,7 @@ h5:hover {
     }
 
     .source-end {
-        background-image: URL("007.jpg");
+        background-image: URL("009.jpg");
     }
 
     .homeLogo{
